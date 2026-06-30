@@ -4,7 +4,7 @@ b = 1
 while b <=6:
     num = int(input('guess the number '))
     if num == a :
-        print (f"Congrats! you guessed the number in {b} try")
+        print (f"Congrats! you guessed the number in {b} tries")
         break
     elif num > a :
         print ('you guessed to high!')
@@ -12,4 +12,7 @@ while b <=6:
         num < a 
         print ('you guessed the number too low')
     b += 1   
-    print ('you lost')
+
+
+if b>6 and num != a :  
+ print ('you lost')
