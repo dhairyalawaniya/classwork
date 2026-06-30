@@ -1,4 +1,5 @@
-a = 57
+import random
+a = random.randint(1, 100)
 print ('Hi! welcome to the number guessing game, you have six tries to guess the number')
 b = 1
 while b <=6:
